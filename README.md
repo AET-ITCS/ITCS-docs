@@ -1,10 +1,9 @@
 # 智能温控系统
 
----
-title: 智能温控系统
-date: 2026-05-11
 
----
+- 最后修改日期: 2026-05-11
+
+- 版本：V0.0.1
 
 ## 硬件选型
 
@@ -53,4 +52,22 @@ flowchart LR
 - 由 `通信模块` 决定数据流向
 - _linux_ 核 与 _freeRTOS_ 核 之间通过 `mailbox 信箱` 机制通信
 - _Duo256M_ 板 与 _STM32G4_ 板 之间通过 `CAN 总线` 通信
-- 
+
+## 仓库设计
+
+本项目地址如下：
+
+```URL
+https://github.com/AET-ITCS
+```
+
+内有如下仓库（暂定）：
+
+```text
+AET-ITCS
+├── ITCS-DOCS       文件仓库
+├── ITCS-WEB        web界面仓库 (未搭建)
+├── ITCS-VISION     视觉算法仓库 (未搭建)
+├── ITCS-MODRI      电机驱动仓库 (未搭建)
+└── ITCS-COM        通信模块仓库 (未搭建)   
+```
